@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		419BA90DBB2F2ADB5FD7DA9E /* Pods_iOS_Tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E89B4B74C894C03E22A354 /* Pods_iOS_Tutorial.framework */; };
+		7F108961211C006A00B835F4 /* FibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F108960211C006A00B835F4 /* FibViewController.swift */; };
 		7F23497F20D0FB5F00114C2A /* URL_Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */; };
 		7F23498020D0FB5F00114C2A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23497D20D0FB5F00114C2A /* ApiManager.swift */; };
 		7F23498120D0FB5F00114C2A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23497E20D0FB5F00114C2A /* AppConstants.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		3BE960970F3FD1DD2E0D8179 /* Pods-iOS Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Tutorial/Pods-iOS Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		7F108960211C006A00B835F4 /* FibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibViewController.swift; sourceTree = "<group>"; };
 		7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Mapping.swift; sourceTree = "<group>"; };
 		7F23497D20D0FB5F00114C2A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7F23497E20D0FB5F00114C2A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				7FA13028209D9766007E188F /* CallSmsViewController.swift */,
 				7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */,
 				7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */,
+				7F108960211C006A00B835F4 /* FibViewController.swift */,
 			);
 			path = "iOS Tutorial";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				7F23498120D0FB5F00114C2A /* AppConstants.swift in Sources */,
 				7F23498020D0FB5F00114C2A /* ApiManager.swift in Sources */,
 				7FA0264220EA0C8200E89B1B /* GifSampleViewController.swift in Sources */,
+				7F108961211C006A00B835F4 /* FibViewController.swift in Sources */,
 				7FADF674208B130A00D5072C /* ParallexViewController.swift in Sources */,
 				7F23497F20D0FB5F00114C2A /* URL_Mapping.swift in Sources */,
 				7FADF662208B06DD00D5072C /* AppDelegate.swift in Sources */,

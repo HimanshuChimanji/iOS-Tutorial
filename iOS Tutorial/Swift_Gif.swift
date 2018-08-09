@@ -1,8 +1,8 @@
 //
 //  Swift_Gif.swift
-//  Manage-Your-Room
+//  iOS Tutorial
 //
-//  Created by Himanshu Chimanji on 28/06/18.
+//  Created by Himanshu Chimanji on 02/07/18.
 //  Copyright © 2018 Talent4assure. All rights reserved.
 //
 

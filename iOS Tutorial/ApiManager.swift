@@ -1,9 +1,9 @@
 //
 //  ApiManager.swift
-//  Talent4Asure
+//  iOS Tutorial
 //
-//  Created by pooja on 01/06/17.
-//  Copyright © 2017 pooja. All rights reserved.
+//  Created by Himanshu Chimanji on 02/07/18.
+//  Copyright © 2018 Talent4assure. All rights reserved.
 //
 
 import UIKit
