@@ -29,8 +29,6 @@
 		7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Mapping.swift; sourceTree = "<group>"; };
 		7F23497D20D0FB5F00114C2A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7F23497E20D0FB5F00114C2A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		7F36F4B6211C47C4008F535E /* FibonacciSeriesWithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSeriesWithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		7F36F4B7211C47C4008F535E /* ArmstrongNumberWhithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArmstrongNumberWhithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
 		7FA0263D20EA0C4B00E89B1B /* Swift_Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_Gif.swift; sourceTree = "<group>"; };
 		7FA0263F20EA0C6800E89B1B /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		7FADF66B208B06DF00D5072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FADF66D208B06DF00D5072C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FADF673208B130A00D5072C /* ParallexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallexViewController.swift; sourceTree = "<group>"; };
+		7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArmstrongNumberWhithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7FFE0543211C4D6400DF96BD /* FibonacciSeriesWithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSeriesWithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E2E89B4B74C894C03E22A354 /* Pods_iOS_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59207CBAF7EA17571140B6C /* Pods-iOS Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Tutorial/Pods-iOS Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,11 +77,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */,
+				7FFE0543211C4D6400DF96BD /* FibonacciSeriesWithoutRecursion.playground */,
+			);
+			path = "Logical Programing";
+			sourceTree = "<group>";
+		};
 		7FADF655208B06DD00D5072C = {
 			isa = PBXGroup;
 			children = (
-				7F36F4B7211C47C4008F535E /* ArmstrongNumberWhithoutRecursion.playground */,
-				7F36F4B6211C47C4008F535E /* FibonacciSeriesWithoutRecursion.playground */,
+				7F36F4B8211C4CE9008F535E /* Logical Programing */,
 				7FADF660208B06DD00D5072C /* iOS Tutorial */,
 				7FADF65F208B06DD00D5072C /* Products */,
 				2C4BBA190B6879110D8A7F46 /* Pods */,
