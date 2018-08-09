@@ -20,6 +20,7 @@ for n in 1...1000
     
     if s == n
     {
-        print("Armstrong Number: \(n)")
+        print("Armstrong Number:")
+        print("\(n)")
     }
 }
