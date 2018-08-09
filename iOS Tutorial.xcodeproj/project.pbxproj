@@ -29,6 +29,8 @@
 		7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Mapping.swift; sourceTree = "<group>"; };
 		7F23497D20D0FB5F00114C2A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7F23497E20D0FB5F00114C2A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		7F36F4B6211C47C4008F535E /* FibonacciSeriesWithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSeriesWithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7F36F4B7211C47C4008F535E /* ArmstrongNumberWhithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArmstrongNumberWhithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
 		7FA0263D20EA0C4B00E89B1B /* Swift_Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_Gif.swift; sourceTree = "<group>"; };
 		7FA0263F20EA0C6800E89B1B /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
@@ -78,6 +80,8 @@
 		7FADF655208B06DD00D5072C = {
 			isa = PBXGroup;
 			children = (
+				7F36F4B7211C47C4008F535E /* ArmstrongNumberWhithoutRecursion.playground */,
+				7F36F4B6211C47C4008F535E /* FibonacciSeriesWithoutRecursion.playground */,
 				7FADF660208B06DD00D5072C /* iOS Tutorial */,
 				7FADF65F208B06DD00D5072C /* Products */,
 				2C4BBA190B6879110D8A7F46 /* Pods */,
