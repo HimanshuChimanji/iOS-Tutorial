@@ -44,6 +44,7 @@
 		7FADF673208B130A00D5072C /* ParallexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallexViewController.swift; sourceTree = "<group>"; };
 		7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArmstrongNumberWhithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0543211C4D6400DF96BD /* FibonacciSeriesWithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSeriesWithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7FFE0544211C4DF800DF96BD /* StarSeries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StarSeries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E2E89B4B74C894C03E22A354 /* Pods_iOS_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59207CBAF7EA17571140B6C /* Pods-iOS Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Tutorial/Pods-iOS Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +81,7 @@
 		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
 			isa = PBXGroup;
 			children = (
+				7FFE0544211C4DF800DF96BD /* StarSeries.playground */,
 				7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */,
 				7FFE0543211C4D6400DF96BD /* FibonacciSeriesWithoutRecursion.playground */,
 			);
