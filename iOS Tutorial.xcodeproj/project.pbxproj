@@ -35,6 +35,7 @@
 		7FA0263F20EA0C6800E89B1B /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifSampleViewController.swift; sourceTree = "<group>"; };
 		7FA13028209D9766007E188F /* CallSmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSmsViewController.swift; sourceTree = "<group>"; };
+		7FA36B52211D8D0200ECFF30 /* Complex Star Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Complex Star Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FADF65E208B06DD00D5072C /* iOS Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FADF661208B06DD00D5072C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FADF663208B06DD00D5072C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
 			isa = PBXGroup;
 			children = (
+				7FA36B52211D8D0200ECFF30 /* Complex Star Pattern.playground */,
 				7FFE0544211C4DF800DF96BD /* SimpleStarSeries.playground */,
 				7F4BD10F211D87DD00AC093D /* Paramid Star Pattern.playground */,
 				7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */,
