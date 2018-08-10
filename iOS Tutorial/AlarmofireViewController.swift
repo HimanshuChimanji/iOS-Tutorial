@@ -31,6 +31,7 @@ class AlarmofireViewController: UIViewController {
         Alamofire.request(url, method: .post, parameters: param, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
             let valueOfResultInResponse = response.result.value
             let convertingToArray = valueOfResultInResponse as! NSArray
+           
             for valueInArray in convertingToArray
             {
                 let itCouldBeNsDictionary = valueInArray as? NSDictionary
