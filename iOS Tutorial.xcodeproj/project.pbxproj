@@ -11,6 +11,7 @@
 		7F23497F20D0FB5F00114C2A /* URL_Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */; };
 		7F23498020D0FB5F00114C2A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23497D20D0FB5F00114C2A /* ApiManager.swift */; };
 		7F23498120D0FB5F00114C2A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F23497E20D0FB5F00114C2A /* AppConstants.swift */; };
+		7F342307211DA8C300FDEDF5 /* AlarmofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F342306211DA8C300FDEDF5 /* AlarmofireViewController.swift */; };
 		7F553D6120CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */; };
 		7FA0263E20EA0C4B00E89B1B /* Swift_Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0263D20EA0C4B00E89B1B /* Swift_Gif.swift */; };
 		7FA0264020EA0C6800E89B1B /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0263F20EA0C6800E89B1B /* loading.gif */; };
@@ -29,6 +30,7 @@
 		7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Mapping.swift; sourceTree = "<group>"; };
 		7F23497D20D0FB5F00114C2A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7F23497E20D0FB5F00114C2A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		7F342306211DA8C300FDEDF5 /* AlarmofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmofireViewController.swift; sourceTree = "<group>"; };
 		7F4BD10F211D87DD00AC093D /* Paramid Star Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Paramid Star Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
 		7FA0263D20EA0C4B00E89B1B /* Swift_Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_Gif.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				7FA13028209D9766007E188F /* CallSmsViewController.swift */,
 				7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */,
 				7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */,
+				7F342306211DA8C300FDEDF5 /* AlarmofireViewController.swift */,
 			);
 			path = "iOS Tutorial";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				7F23498020D0FB5F00114C2A /* ApiManager.swift in Sources */,
 				7FA0264220EA0C8200E89B1B /* GifSampleViewController.swift in Sources */,
 				7FADF674208B130A00D5072C /* ParallexViewController.swift in Sources */,
+				7F342307211DA8C300FDEDF5 /* AlarmofireViewController.swift in Sources */,
 				7F23497F20D0FB5F00114C2A /* URL_Mapping.swift in Sources */,
 				7FADF662208B06DD00D5072C /* AppDelegate.swift in Sources */,
 				7FA0263E20EA0C4B00E89B1B /* Swift_Gif.swift in Sources */,
