@@ -31,6 +31,7 @@
 		7F23497D20D0FB5F00114C2A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7F23497E20D0FB5F00114C2A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		7F342306211DA8C300FDEDF5 /* AlarmofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmofireViewController.swift; sourceTree = "<group>"; };
+		7F3CC284212EA4AD00A7AAE7 /* ReverseWords.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseWords.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F4BD10F211D87DD00AC093D /* Paramid Star Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Paramid Star Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
 		7F732891211F0A1A00D760A3 /* SubString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -86,6 +87,7 @@
 		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
 			isa = PBXGroup;
 			children = (
+				7F3CC284212EA4AD00A7AAE7 /* ReverseWords.playground */,
 				7F732891211F0A1A00D760A3 /* SubString.playground */,
 				7FA36B52211D8D0200ECFF30 /* Complex Star Pattern.playground */,
 				7FFE0544211C4DF800DF96BD /* SimpleStarSeries.playground */,

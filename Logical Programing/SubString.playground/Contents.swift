@@ -18,11 +18,11 @@ let    sPath    =    path[startIndex    ..<    endIndex]    //returns    the    
 let    newStr    =    String(sPath)
 
 
-path.substring(to:    startIndex)    //returns    the    "/one"
-String(path[..<startIndex])      //    [Swift 4]
+//path.substring(to:    startIndex)      'substring(from:)' is deprecated
+String(path[..<startIndex])      //    [Swift 4]  //returns    the    "/one"
 
-path.substring(from:    endIndex)    //returns    the    "/four"
-String(path[endIndex...])      //   [Swift 4]
+//path.substring(from:    endIndex)      'substring(from:)' is deprecated
+String(path[endIndex...])      //   [Swift 4]  //returns    the    "/four"
 
 path.last
 
