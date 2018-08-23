@@ -3,24 +3,24 @@
 import UIKit
 
 // Fibonacci Series Without Recursion
+
+var a = -1
+var b = 1
+var c:Int = Int()
+var num: Int = Int()
+var sequence: Array = [Int]()
+
 func fibonacci(numSteps: Int) ->[Int] {
-    var sequence = [0,1]
-    if numSteps == 1
+    for _ in 0...numSteps
     {
-        return sequence
-    }
-    else if numSteps == 0
-    {
-        return [0]
-    }
-    for _ in 0...numSteps - 2
-    {
-        let first = sequence[sequence.count-2]
-        let second = sequence.last!
-        sequence.append(first+second)
+        c = a+b
+        sequence.append(c)
+        a = b
+        b = c
     }
     return sequence
 }
 
 print(fibonacci(numSteps: 5))
+
 

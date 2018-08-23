@@ -36,6 +36,7 @@
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
 		7F732891211F0A1A00D760A3 /* SubString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F7EFD99212EB8C40019379C /* URL Detector.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "URL Detector.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7F7EFD9A212EB95D0019379C /* Swap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FA0263D20EA0C4B00E89B1B /* Swift_Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_Gif.swift; sourceTree = "<group>"; };
 		7FA0263F20EA0C6800E89B1B /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifSampleViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		7FADF66B208B06DF00D5072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FADF66D208B06DF00D5072C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FADF673208B130A00D5072C /* ParallexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallexViewController.swift; sourceTree = "<group>"; };
+		7FB59A7E212EC59700960BF6 /* Factorial.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Factorial.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArmstrongNumberWhithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0543211C4D6400DF96BD /* FibonacciSeriesWithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSeriesWithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0544211C4DF800DF96BD /* SimpleStarSeries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SimpleStarSeries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -88,6 +90,8 @@
 		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
 			isa = PBXGroup;
 			children = (
+				7F7EFD9A212EB95D0019379C /* Swap.playground */,
+				7FB59A7E212EC59700960BF6 /* Factorial.playground */,
 				7F7EFD99212EB8C40019379C /* URL Detector.playground */,
 				7F3CC284212EA4AD00A7AAE7 /* ReverseString.playground */,
 				7F732891211F0A1A00D760A3 /* SubString.playground */,
