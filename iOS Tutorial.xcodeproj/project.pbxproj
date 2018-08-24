@@ -27,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		3BE960970F3FD1DD2E0D8179 /* Pods-iOS Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Tutorial/Pods-iOS Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		7F0D3155212FD80C0019D344 /* Even Or Odd.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Even Or Odd.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F23497C20D0FB5E00114C2A /* URL_Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL_Mapping.swift; sourceTree = "<group>"; };
 		7F23497D20D0FB5F00114C2A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		7F23497E20D0FB5F00114C2A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
@@ -34,6 +35,7 @@
 		7F3CC284212EA4AD00A7AAE7 /* ReverseString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F4BD10F211D87DD00AC093D /* Paramid Star Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Paramid Star Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
+		7F6842E8212FEE5900A796A3 /* HCF AND LCM Of Two NUMBER.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "HCF AND LCM Of Two NUMBER.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F732891211F0A1A00D760A3 /* SubString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F7EFD99212EB8C40019379C /* URL Detector.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "URL Detector.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F7EFD9A212EB95D0019379C /* Swap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -90,6 +92,8 @@
 		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
 			isa = PBXGroup;
 			children = (
+				7F6842E8212FEE5900A796A3 /* HCF AND LCM Of Two NUMBER.playground */,
+				7F0D3155212FD80C0019D344 /* Even Or Odd.playground */,
 				7F7EFD9A212EB95D0019379C /* Swap.playground */,
 				7FB59A7E212EC59700960BF6 /* Factorial.playground */,
 				7F7EFD99212EB8C40019379C /* URL Detector.playground */,
