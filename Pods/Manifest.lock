@@ -3,6 +3,7 @@ PODS:
   - Floaty (3.0.1)
   - IQKeyboardManagerSwift (5.0.8)
   - MBProgressHUD (1.1.0)
+  - SearchTextField (1.2.1)
   - SwiftValidator (4.0.0)
   - SwiftyJSON (4.0.0)
 
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - Floaty (~> 3.0.0)
   - IQKeyboardManagerSwift
   - MBProgressHUD
+  - SearchTextField
   - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
   - SwiftyJSON
 
@@ -29,9 +31,10 @@ SPEC CHECKSUMS:
   Floaty: bb7a353deee9ddcc14c584ca9c538efdc19669f2
   IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SearchTextField: 261b0febd49194492f29555fff3c5c0019ca84d2
   SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 78c1a6549bfa987d9aceb6125a19793c941623fe
+PODFILE CHECKSUM: cf1b8cf60a40ab436dfe4b84c42e7947fb0b105c
 
 COCOAPODS: 1.4.0

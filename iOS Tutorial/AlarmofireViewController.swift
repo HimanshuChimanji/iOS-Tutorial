@@ -11,7 +11,7 @@ import Alamofire
 
 class AlarmofireViewController: UIViewController {
     
-    let url = "http://192.168.0.43:8081/StudentAssessment2/getPracticeQuestionForApp"
+    let url = "http://192.168.0.34:8081/StudentAssessment2/getwalkinvenue"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,21 +23,20 @@ class AlarmofireViewController: UIViewController {
     
     func downloadJsonWithURL()
     {
-        let param : Parameters =
-            [
-                "import_level_id": "92",
-                "import_level" : "T"
-            ]
-        Alamofire.request(url, method: .post, parameters: param, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
+//        let param : Parameters =
+//            [
+//                "import_level_id": "92",
+//                "import_level" : "T"
+//            ]
+        Alamofire.request(url, method: .post, parameters: nil, encoding: JSONEncoding.default, headers: nil).responseJSON { response in
+            
             let valueOfResultInResponse = response.result.value
             let convertingToArray = valueOfResultInResponse as! NSArray
-           
             for valueInArray in convertingToArray
             {
-                let itCouldBeNsDictionary = valueInArray as? NSDictionary
+                let itCouldBeNsDictionary = valueInArray as! NSDictionary
                 
-                let success = itCouldBeNsDictionary?.value(forKey: "SUCCESS") as! Int
-                print(success)
+                print(itCouldBeNsDictionary)
             }
         }
 

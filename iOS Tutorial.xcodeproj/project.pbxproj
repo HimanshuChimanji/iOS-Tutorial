@@ -17,6 +17,7 @@
 		7FA0264020EA0C6800E89B1B /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0263F20EA0C6800E89B1B /* loading.gif */; };
 		7FA0264220EA0C8200E89B1B /* GifSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */; };
 		7FA13029209D9766007E188F /* CallSmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA13028209D9766007E188F /* CallSmsViewController.swift */; };
+		7FA4A66B218AE680005D313E /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA4A66A218AE680005D313E /* SuggestionViewController.swift */; };
 		7FADF662208B06DD00D5072C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FADF661208B06DD00D5072C /* AppDelegate.swift */; };
 		7FADF664208B06DD00D5072C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FADF663208B06DD00D5072C /* ViewController.swift */; };
 		7FADF667208B06DD00D5072C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF665208B06DD00D5072C /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifSampleViewController.swift; sourceTree = "<group>"; };
 		7FA13028209D9766007E188F /* CallSmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSmsViewController.swift; sourceTree = "<group>"; };
 		7FA36B52211D8D0200ECFF30 /* Complex Star Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Complex Star Pattern.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7FA4A66A218AE680005D313E /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
 		7FADF65E208B06DD00D5072C /* iOS Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FADF661208B06DD00D5072C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FADF663208B06DD00D5072C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */,
 				7FA0264120EA0C8200E89B1B /* GifSampleViewController.swift */,
 				7F342306211DA8C300FDEDF5 /* AlarmofireViewController.swift */,
+				7FA4A66A218AE680005D313E /* SuggestionViewController.swift */,
 			);
 			path = "iOS Tutorial";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -259,6 +263,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -297,6 +302,7 @@
 				7FA0264220EA0C8200E89B1B /* GifSampleViewController.swift in Sources */,
 				7FADF674208B130A00D5072C /* ParallexViewController.swift in Sources */,
 				7F342307211DA8C300FDEDF5 /* AlarmofireViewController.swift in Sources */,
+				7FA4A66B218AE680005D313E /* SuggestionViewController.swift in Sources */,
 				7F23497F20D0FB5F00114C2A /* URL_Mapping.swift in Sources */,
 				7FADF662208B06DD00D5072C /* AppDelegate.swift in Sources */,
 				7FA0263E20EA0C4B00E89B1B /* Swift_Gif.swift in Sources */,

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tpz-nx-jgM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="da2-0D-ahp">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Pbk-qs-Vvg">
-                                <rect key="frame" x="20" y="288" width="335" height="90"/>
+                                <rect key="frame" x="20" y="288.5" width="335" height="90"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNe-qn-TcW">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
@@ -69,7 +69,7 @@
                                 <rect key="frame" x="-50" y="-30" width="475" height="747"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GATEKEEPER" translatesAutoresizingMaskIntoConstraints="NO" id="Mcq-3V-7Rc">
-                                <rect key="frame" x="87" y="60" width="200" height="200"/>
+                                <rect key="frame" x="87.5" y="60" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="kly-gw-94U"/>
                                     <constraint firstAttribute="width" constant="200" id="uy7-Z9-jON"/>
@@ -133,13 +133,61 @@
                     <view key="view" contentMode="scaleToFill" id="R5u-Vx-iFU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Alamofire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOz-gT-nfB">
+                                <rect key="frame" x="133" y="323" width="109.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AOz-gT-nfB" firstAttribute="centerY" secondItem="R5u-Vx-iFU" secondAttribute="centerY" id="7y7-UA-b6w"/>
+                            <constraint firstItem="AOz-gT-nfB" firstAttribute="centerX" secondItem="R5u-Vx-iFU" secondAttribute="centerX" id="PN4-Nl-PMT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="TgD-Kz-3Or"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X6A-y6-Uzk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2483" y="880"/>
+        </scene>
+        <!--Suggestion View Controller-->
+        <scene sceneID="3xd-O8-3ic">
+            <objects>
+                <viewController storyboardIdentifier="SuggestionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="da2-0D-ahp" customClass="SuggestionViewController" customModule="iOS_Tutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="meC-v6-AoL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rph-AM-8dt" customClass="SearchTextField" customModule="SearchTextField">
+                                <rect key="frame" x="20" y="313.5" width="335" height="40"/>
+                                <color key="backgroundColor" red="0.1843137255" green="0.25882352939999997" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="VAJ-bA-v8z"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rph-AM-8dt" firstAttribute="leading" secondItem="yUC-u8-BHW" secondAttribute="leading" constant="20" id="6hd-P5-Sk5"/>
+                            <constraint firstItem="yUC-u8-BHW" firstAttribute="trailing" secondItem="Rph-AM-8dt" secondAttribute="trailing" constant="20" id="Enj-PF-a8W"/>
+                            <constraint firstItem="Rph-AM-8dt" firstAttribute="centerX" secondItem="meC-v6-AoL" secondAttribute="centerX" id="s4E-lB-z8s"/>
+                            <constraint firstItem="Rph-AM-8dt" firstAttribute="centerY" secondItem="meC-v6-AoL" secondAttribute="centerY" id="wUS-oH-S1s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yUC-u8-BHW"/>
+                    </view>
+                    <connections>
+                        <outlet property="suggestionTf" destination="Rph-AM-8dt" id="z6Z-pI-BIi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="80U-nQ-Euq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3941" y="910"/>
         </scene>
         <!--Call Sms View Controller-->
         <scene sceneID="Bvm-NJ-Kxe">
@@ -278,6 +326,6 @@
     </scenes>
     <resources>
         <image name="GATEKEEPER" width="512" height="512"/>
-        <image name="Motorcyle-and-Bikes-1" width="1920" height="1080"/>
+        <image name="Motorcyle-and-Bikes-1" width="1440" height="810"/>
     </resources>
 </document>

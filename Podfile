@@ -13,6 +13,9 @@ pod 'IQKeyboardManagerSwift'
 #  pod "RCActionView", '~> 2.0.0'
 pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :branch => 'master'
 pod 'MBProgressHUD'
+pod 'SearchTextField'
+
+
 
   # Pods for iOS Tutorial
 
