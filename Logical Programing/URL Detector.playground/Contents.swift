@@ -4,8 +4,8 @@ import UIKit
 
 // You can Detect multiple thing by this method for example address , date , phone number , URL , etc.
 
-let input = "This is a test with the URL https://github.com/HimanshuChimanji to be detected."
-let detector = try! NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
+let input = "This is a test with the URL https://github.com/HimanshuChimanji to be detected 9871539896."
+let detector = try! NSDataDetector(types: NSTextCheckingResult.CheckingType.allTypes.rawValue)
 let matches = detector.matches(in: input, options: [], range: NSRange(location: 0, length: input.utf16.count))
 
 for match in matches {
