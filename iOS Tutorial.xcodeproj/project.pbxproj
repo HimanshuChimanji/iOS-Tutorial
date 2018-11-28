@@ -63,6 +63,7 @@
 		7FADF66D208B06DF00D5072C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FADF673208B130A00D5072C /* ParallexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallexViewController.swift; sourceTree = "<group>"; };
 		7FB59A7E212EC59700960BF6 /* Factorial.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Factorial.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7FE6707021AEB298003E8A19 /* Prime Number.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Prime Number.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0542211C4D6400DF96BD /* ArmstrongNumberWhithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArmstrongNumberWhithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0543211C4D6400DF96BD /* FibonacciSeriesWithoutRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FibonacciSeriesWithoutRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7FFE0544211C4DF800DF96BD /* SimpleStarSeries.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SimpleStarSeries.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -103,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				7F6842E8212FEE5900A796A3 /* HCF AND LCM Of Two NUMBER.playground */,
+				7FE6707021AEB298003E8A19 /* Prime Number.playground */,
 				7F0D3155212FD80C0019D344 /* Even Or Odd.playground */,
 				7F7EFD9A212EB95D0019379C /* Swap.playground */,
 				7FB59A7E212EC59700960BF6 /* Factorial.playground */,
