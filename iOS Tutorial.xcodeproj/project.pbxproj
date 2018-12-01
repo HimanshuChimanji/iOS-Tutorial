@@ -42,6 +42,7 @@
 		7F52A6ED218C659F00D2746F /* TableViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimationViewController.swift; sourceTree = "<group>"; };
 		7F52A6EF218C65D700D2746F /* TableViewAnimationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimationTableViewCell.swift; sourceTree = "<group>"; };
 		7F553D6020CBA2D800099A10 /* AutoCompleteTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextFieldViewController.swift; sourceTree = "<group>"; };
+		7F62515821B256B200E90AC2 /* NonRepeatingNumberInArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NonRepeatingNumberInArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F6842E8212FEE5900A796A3 /* HCF AND LCM Of Two NUMBER.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "HCF AND LCM Of Two NUMBER.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7F70B66521970D3700B11742 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		7F70B66821970DB100B11742 /* ShowToastLikeAndroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowToastLikeAndroidViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		7F36F4B8211C4CE9008F535E /* Logical Programing */ = {
 			isa = PBXGroup;
 			children = (
+				7F62515821B256B200E90AC2 /* NonRepeatingNumberInArray.playground */,
 				7F6842E8212FEE5900A796A3 /* HCF AND LCM Of Two NUMBER.playground */,
 				7FE6707021AEB298003E8A19 /* Prime Number.playground */,
 				7F0D3155212FD80C0019D344 /* Even Or Odd.playground */,
