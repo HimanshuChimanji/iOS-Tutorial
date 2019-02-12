@@ -25,3 +25,25 @@ d = d - e;
 
 print("d: \t\(d)");
 print("e: \t\(e)");
+
+
+
+class Person {
+    var residence: Residence?
+}
+
+class Residence {
+    var numberOfRooms = 1
+}
+let john = Person()
+//let roomCount = john.residence!.numberOfRooms
+
+if let roomCount = john.residence?.numberOfRooms {
+    print("John's residence has \(roomCount) room(s).")
+} else {
+    print("Unable to retrieve the number of rooms.")
+}
+
+var vaue: String?  = String()
+//vaue = "a"
+print(vaue ?? "a")

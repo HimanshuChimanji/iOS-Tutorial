@@ -48,7 +48,7 @@ allWords = sentence.components(separatedBy: " ")
 for s in sentence
 {
     //    print(s)
-    str = "\(s)" + str
+    str = "\(s)" + str 
 }
 print("\n4th type of Reversed String:\t\t\(str)")
 
