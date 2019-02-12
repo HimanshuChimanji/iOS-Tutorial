@@ -11,9 +11,9 @@ import UIKit
 //      **     **
 //      *       *
 print("\nComplex Star Pattern First \t 1st Type\n")
-for i in 1...5 {
-    for j in 1...9 {
-        if ( j<=6-i||j>=4+i)
+for row in 1...5 {
+    for Column in 1...9 {
+        if ( Column<=6-row||Column>=4+row)
         {
         print("*", terminator: "")
         }
@@ -41,11 +41,11 @@ for i in 1...5 {
 //        5       5
 
 print("\nComplex Star Pattern First \t 2nd Type\n")
-for i in 1...5 {
-    for j in 1...9 {
-        if ( j<=6-i||j>=4+i)
+for row in 1...5 {
+    for Column in 1...9 {
+        if ( Column<=6-row||Column>=4+row)
         {
-            print(i, terminator: "")
+            print(row, terminator: "")
         }
         else{
             print(" ", terminator: "")
@@ -71,11 +71,11 @@ for i in 1...5 {
 //      1       9
 
 print("\nComplex Star Pattern First \t 3rd Type\n")
-for i in 1...5 {
-    for j in 1...9 {
-        if ( j<=6-i||j>=4+i)
+for row in 1...5 {
+    for Column in 1...9 {
+        if ( Column<=6-row||Column>=4+row)
         {
-            print(j, terminator: "")
+            print(Column, terminator: "")
         }
         else{
             print(" ", terminator: "")
@@ -104,14 +104,14 @@ for i in 1...5 {
 print("\nComplex Star Pattern First \t 4th Type\n")
 
 var k = Int()
-for i in 1...5 { // 1
+for row in 1...5 { // 1
     k = 1 // 1
-    for j in 1...9 { // 1
-        if ( j<=6-i||j>=4+i)
+    for Column in 1...9 { // 1
+        if ( Column<=6-row||Column>=4+row)
         {
             
             print(k, terminator: "")
-            if (j<5)
+            if (Column<5)
             {
                 k += 1
             }
@@ -122,7 +122,7 @@ for i in 1...5 { // 1
         }
         else{
             print(" ", terminator: "")
-            if j == 5
+            if Column == 5
             {
                 k -= 1
             }

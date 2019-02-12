@@ -1,27 +1,22 @@
-//: Playground - noun: a place where people can play
+import Foundation
 
-import UIKit
-
-// [1,1,2,2,3,4,4,5,5] find number which is not repeating
-print("[1,1,2,2,3,4,4,5,5] find number which is not repeating")
-let array = [1,1,2,2,3,4,4,5,5]
-var count = Int()
-
-for i in 0..<array.count
-{
-    count = 0
-    for j in 0..<array.count
-    {
-        if i != j
-        {
-            if array[i] == array[j]
-            {
-                count += 1
-            }
+func LongestWord(_ sen: String) -> Substring {
+    let words = sen.split(separator: " ")
+    var longest = words.first!
+    var longestLength = lengthOf(longest)
+    for word in words.dropFirst() {
+        let length = lengthOf(word)
+        if length > longestLength {
+            longest = word
+            longestLength = length
         }
     }
-    if count == 0
-    {
-        print(array[i])
-    }
+    return longest
 }
+
+func lengthOf(_ str: Substring) -> Int {
+    return str.reduce(0, { CharacterSet.punctuationCharacters.contains($1.unicodeScalars.first!) ? $0 : $0 + 1 } )
+}
+
+// keep this function call here
+print(LongestWord("I am the Longest word"));

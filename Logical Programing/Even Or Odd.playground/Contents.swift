@@ -31,6 +31,7 @@ func evenOrOddWithModulas(numSteps: Int){
 func evenOrOddWithoutModulas(numSteps: Int)
 {
     let val = String(fullBinary: numSteps)
+    print(val)
     let lastBinaryDigit = val.last
     if lastBinaryDigit == "0"
     {
